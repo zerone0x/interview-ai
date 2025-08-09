@@ -1,0 +1,4 @@
+- support 语音转文字 转 json
+- reset btn
+- refactor code
+- 
