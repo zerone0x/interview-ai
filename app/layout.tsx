@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import './globals.css'
+import OnbordaRoot from '@/components/onborda/OnbordaRoot'
 
 export const metadata: Metadata = {
   title: 'Interview Analysis',
@@ -25,7 +26,9 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body>
+        <OnbordaRoot>{children}</OnbordaRoot>
+      </body>
     </html>
   )
 }
