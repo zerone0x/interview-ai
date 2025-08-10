@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import type { TimelineData } from "@/app/actions"
+import type { TimelineData } from "@/service/actions"
 
 export function TimelineSummary({ timeline }: { timeline: TimelineData }) {
   return (

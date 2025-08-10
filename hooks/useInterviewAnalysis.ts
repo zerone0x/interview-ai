@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { extractKeyElements, generateTimeline, type KeyElementsData, type TimelineData } from "@/app/actions"
+import { extractKeyElements, generateTimeline, type KeyElementsData, type TimelineData } from "@/service/actions"
 import type { TranscriptLog } from "@/types/interview"
 
 export function useInterviewAnalysis() {

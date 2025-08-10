@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import { transcribeAudioAndBuildJson } from "@/app/actions"
+import { transcribeAudioAndBuildJson } from "@/service/actions"
 
 export async function POST(req: Request) {
   try {

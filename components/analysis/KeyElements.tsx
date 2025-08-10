@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, AlertTriangle } from "lucide-react"
-import type { KeyElementsData } from "@/app/actions"
+import type { KeyElementsData } from "@/service/actions"
 
 export function KeyElements({ data }: { data: KeyElementsData }) {
   return (
