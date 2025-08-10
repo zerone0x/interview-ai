@@ -74,7 +74,6 @@ export default function Component() {
                 {keyElements && <KeyElements data={keyElements} />}
               </div>
             </aside>
-            {transcript && <TranscriptView transcript={transcript} />}
           </div>
         )}
       </main>
