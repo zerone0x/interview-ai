@@ -67,12 +67,12 @@ export default function Component() {
         )}
 
         {(keyElements || timeline || transcript) && (
-          <div id="tour-results" className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
-            <aside className="lg:col-span-2 lg:sticky top-8">
-              <div className="flex flex-col gap-6">
-                {timeline && <TimelineSummary timeline={timeline} />}
-                {keyElements && <KeyElements data={keyElements} />}
-              </div>
+          <div id="tour-results" className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <section className="lg:sticky top-8">
+              {timeline && <TimelineSummary timeline={timeline} />}
+            </section>
+            <aside className="flex flex-col gap-6">
+              {keyElements && <KeyElements data={keyElements} />}
             </aside>
           </div>
         )}
